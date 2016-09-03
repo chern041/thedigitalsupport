@@ -1,0 +1,19 @@
+$color-light: #fff;
+$color-gray: #332e35;
+@mixin dark-alpha-background(){
+  	background: -moz-linear-gradient(top,  rgba(82,101,143,0.7) 0%, rgba(82,101,143,0.7) 100%);
+	background: -webkit-linear-gradient(top,  rgba(82,101,143,0.7) 0%,rgba(82,101,143,0.7) 100%);
+	background: linear-gradient(to bottom,  rgba(82,101,143,0.7) 0%,rgba(82,101,143,0.7) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 );
+
+}
+
+
+@mixin vertical-align($intro-vertical-align) {
+	$negative-align : unquote('-'+ $intro-vertical-align);
+  	position: relative;
+  	top: $intro-vertical-align;
+  	-webkit-transform: translateY($negative-align);
+  	-ms-transform: translateY($negative-align);
+  	transform: translateY($negative-align);
+}
