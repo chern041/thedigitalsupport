@@ -287,7 +287,7 @@ $base-line-height: 1.5 !default;
   clip: auto;
 }
 
-$white         : #FFFFFF !default;
+$white         : #f7f5e6 !default;
 $ghost         : #FAFAFA !default;
 $snow          : #F9F9F9 !default;
 $vapor         : #F6F6F6 !default;
@@ -309,7 +309,7 @@ $black         : #000000 !default;
 
 // We use these as default colors throughout
 //$primary-color: #008CBA !default;   // bondi-blue
-$primary-color: rgba(100, 100, 100, 0.7) !default;   // Test-Transparent
+$primary-color: #F7F5E6 !default;   // Test-Transparent
 $secondary-color: #e7e7e7 !default; // white-lilac
 $alert-color: #f04124 !default;     // cinnabar
 $success-color: #43AC6A !default;   // sea-green
@@ -317,8 +317,8 @@ $warning-color: #f08a24 !default;   // carrot
 $info-color: #a0d3e8 !default;      // cornflower
 
 // We use these to define default font stacks
-$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
-$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
+$font-family-sans-serif: "Futura",Futura, Helvetica, Roboto, Arial, sans-serif !default;
+$font-family-serif: Futura, Cambria, "Times New Roman", Times, serif !default;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
 
 // We use these to define default font weights
@@ -327,7 +327,7 @@ $font-weight-bold: bold !default;
 
 // We use these to control various global styles
 $body-bg: #F7F5E6 !default;
-$body-font-color: #222 !default;
+$body-font-color: #343A56 !default;
 $body-font-family: $font-family-sans-serif !default;
 $body-font-weight: $font-weight-normal !default;
 $body-font-style: normal !default;
@@ -574,16 +574,21 @@ $cursor-text-value: text !default;
       position: relative;
     }
 
-    .mxcityA{
-      opacity: 0.12;
-    }
     .mxcityD{
-      margin: -260px 0px 0px 0px;
+      margin: -63px 0px 0px 0px;
+    }
+    .logo{
+      width: 56%;
+      height: 65%;
     }
 
-    p:first-letter {
-      font-size: 120%;
-      color: red;
+    .container{
+      background: #F7F5E6 !important;
+    }
+    .mailico{
+      color: #343A56;
+      text-shadow: 1px 1px 1px #343A56;
+      font-size: 4.5em;
     }
 
     // Make sure textarea takes on height automatically
