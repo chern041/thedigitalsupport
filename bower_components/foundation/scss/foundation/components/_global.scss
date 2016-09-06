@@ -308,8 +308,8 @@ $jet           : #222222 !default;
 $black         : #000000 !default;
 
 // We use these as default colors throughout
-//$primary-color: #008CBA !default;   // bondi-blue
-$primary-color: #F7F5E6 !default;   // Test-Transparent
+$primary-color: #343A56 !default;   // bondi-blue
+//$primary-color: #F7F5E6 !default;   // Test-Transparent
 $secondary-color: #e7e7e7 !default; // white-lilac
 $alert-color: #f04124 !default;     // cinnabar
 $success-color: #43AC6A !default;   // sea-green
@@ -586,7 +586,7 @@ $cursor-text-value: text !default;
       background: #F7F5E6 !important;
     }
     .mailico{
-      color: #343A56;
+      background: #343A56;
       text-shadow: 1px 1px 1px #343A56;
       font-size: 4.5em;
     }
