@@ -206,13 +206,18 @@ img {
   font-size: 4.5em;
 }
 
-/* line 595, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 594, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+.boxmargin {
+  margin-bottom: 0px !important;
+}
+
+/* line 599, ../../bower_components/foundation/scss/foundation/components/_global.scss */
 textarea {
   height: auto;
   min-height: 50px;
 }
 
-/* line 598, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 602, ../../bower_components/foundation/scss/foundation/components/_global.scss */
 select {
   width: 100%;
 }

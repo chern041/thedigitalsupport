@@ -591,6 +591,10 @@ $cursor-text-value: text !default;
       font-size: 4.5em;
     }
 
+    .boxmargin{
+      margin-bottom: 0px !important;
+    }
+
     // Make sure textarea takes on height automatically
     textarea { height: auto; min-height: 50px; }
 
