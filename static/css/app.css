@@ -223,13 +223,30 @@ img {
   width: 226px;
 }
 
-/* line 607, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+@media only screen and (orientation: portrait) {
+  /* line 607, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+  .logo {
+    width: 49%;
+  }
+
+  /* line 610, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+  p {
+    width: 210px;
+    height: 308px;
+  }
+
+  /* line 614, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+  .row {
+    padding-left: 0px;
+  }
+}
+/* line 620, ../../bower_components/foundation/scss/foundation/components/_global.scss */
 textarea {
   height: auto;
   min-height: 60px;
 }
 
-/* line 610, ../../bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 623, ../../bower_components/foundation/scss/foundation/components/_global.scss */
 select {
   width: 100%;
 }

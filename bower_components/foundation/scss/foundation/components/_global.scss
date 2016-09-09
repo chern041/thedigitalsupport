@@ -603,6 +603,19 @@ $cursor-text-value: text !default;
       width: 226px;
     }
 
+    @media only screen and (orientation:portrait) {
+      .logo {
+        width: 49%;
+      }
+      p{
+        width: 210px;
+        height: 308px;
+      }
+      .row{
+        padding-left: 0px;
+      }
+    }
+
     // Make sure textarea takes on height automatically
     textarea { height: auto; min-height: 60px; }
 
