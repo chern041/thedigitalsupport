@@ -304,7 +304,7 @@ $steel         : #666666 !default;
 $charcoal      : #555555 !default;
 $tuatara       : #444444 !default;
 $oil           : #434b70 !default;
-$jet           : #222222 !default;
+$jet           : #E75251 !default;
 $black         : #000000 !default;
 
 // We use these as default colors throughout
@@ -317,9 +317,9 @@ $warning-color: #f08a24 !default;   // carrot
 $info-color: #a0d3e8 !default;      // cornflower
 
 // We use these to define default font stacks
-$font-family-sans-serif: "Futura",Futura, Helvetica, Roboto, Arial, sans-serif !default;
-$font-family-serif: Futura, Cambria, "Times New Roman", Times, serif !default;
-$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
+$font-family-sans-serif: Futura, Verdana, "sans-serif" !default;
+$font-family-serif: Futura, Verdana, "sans-serif" !default;
+$font-family-monospace: Futura, Verdana, "sans-serif" !default;
 
 // We use these to define default font weights
 $font-weight-normal: normal !default;
@@ -365,7 +365,7 @@ $include-html-global-classes: $include-html-classes !default;
 $column-gutter: rem-calc(30) !default;
 
 // Media Query Ranges
-$small-breakpoint:  em-calc(640)  !default;
+$small-breakpoint:  em-calc(924)  !default;
 $medium-breakpoint: em-calc(1024) !default;
 $large-breakpoint:  em-calc(1440) !default;
 $xlarge-breakpoint: em-calc(1920) !default;
@@ -501,7 +501,6 @@ $cursor-text-value: text !default;
 
     // Default body styles
     body {
-      //background:url('/static/assets/images/TDS_bg.png') no-repeat center center fixed;
       background: $body-bg;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -562,41 +561,50 @@ $cursor-text-value: text !default;
     //
     // Global resets for forms
     //
-
-    .mxcitybg{
-      background:url('/static/assets/images/TDS_bg1.png') no-repeat center center fixed;
+    .mxcityD{
+      margin: -260px 0px 0px -142px;
+      background-size: 100% 100%;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: 100% 100%;
-      margin: 0;
-      padding: 0;
-      position: relative;
-    }
-
-    .mxcityD{
-      margin: -63px 0px 0px 0px;
     }
     .logo{
-      width: 56%;
-      height: 65%;
+      width:20%;
+      height: 10%;
     }
 
     .container{
-      background: #F7F5E6 !important;
-    }
-    .mailico{
-      background: #343A56;
-      text-shadow: 1px 1px 1px #343A56;
-      font-size: 4.5em;
+      background: transparent !important;
+      border-color: transparent!important;
     }
 
     .boxmargin{
       margin-bottom: 0px !important;
     }
 
+    .container1{
+      position:absolute;
+      top:20px;
+      padding-left: 38px;
+    }
+
+    .container2{
+      position: relative;
+        left: 65px;
+        top: 5px;
+    }
+
+    .row{
+      max-width: 99.5rem !important;
+      padding-left: 49px;
+      padding-right: 214px;
+    }
+    .smallContainer{
+      width: 226px;
+    }
+
     // Make sure textarea takes on height automatically
-    textarea { height: auto; min-height: 50px; }
+    textarea { height: auto; min-height: 60px; }
 
     // Make select elements 100% width by default
     select { width: 100%; }

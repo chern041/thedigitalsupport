@@ -55,10 +55,10 @@ body {
   font-size: 100%; }
 
 body {
-  background: #fff;
-  color: #222;
+  background: #F7F5E6;
+  color: #343A56;
   cursor: auto;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Futura, Verdana, "sans-serif";
   font-style: normal;
   font-weight: normal;
   line-height: 1.5;
@@ -1610,7 +1610,7 @@ button, .button {
     color: #FFFFFF; }
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
-    border-color: #b9b9b9;
+    border-color: transparent;
     color: #333333; }
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       background-color: #b9b9b9; }
@@ -3747,10 +3747,10 @@ ul.pagination {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #d8d8d8;
+  border-color: transparent;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #f2f2f2;
+  background: #F7F5E6;
   color: #333333; }
   .panel > :first-child {
     margin-top: 0; }
@@ -3766,7 +3766,7 @@ ul.pagination {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #d8d8d8;
+    border-color: transparent;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
     background: #ecfaff;
@@ -3791,7 +3791,7 @@ ul.pagination {
 
 /* Pricing Tables */
 .pricing-table {
-  border: solid 1px #DDDDDD;
+  border: solid 1px transparent;
   margin-left: 0;
   margin-bottom: 1.25rem; }
   .pricing-table * {
@@ -3815,7 +3815,7 @@ ul.pagination {
     text-align: center; }
   .pricing-table .description {
     background-color: #FFFFFF;
-    border-bottom: dotted 1px #DDDDDD;
+    border-bottom: dotted 1px transparent;
     color: #777777;
     font-size: 0.75rem;
     font-weight: normal;
